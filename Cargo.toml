@@ -1,0 +1,14 @@
+[package]
+name = "nextcore-tool"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+plist = "1.10"
+nextcore-core = { git = "https://github.com/26x86/Nextcore-Core.git", tag = "26x86-Nextcore-Core-v0.1.0" }
+nextcore-apls = { git = "https://github.com/26x86/Nextcore-APLS.git", tag = "26x86-Nextcore-APLS-v0.1.0" }

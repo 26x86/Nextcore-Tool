@@ -19,7 +19,7 @@
     {
       "path": "Cargo.toml",
       "bytes": 484,
-      "sha256": "e949c2be0f0ec2a78c57eb62712d7c1f877365b8cdc564271c99b5deb3559f0f"
+      "sha256": "6a5daafab474f012fb40dbaaa163d2a1697b487962fcae62de69b7e841838853"
     },
     {
       "path": "LICENSE.txt",
@@ -34,7 +34,7 @@
     {
       "path": "repository.json",
       "bytes": 1858,
-      "sha256": "2708cae7cc3bf1847111a33cd3d70400dfa8c1fc649884f567f6c19db969e606"
+      "sha256": "cedaa635dbc796c7c37bb0503d9e1323f8e85dd33c1012b02ffe9689e5b5e675"
     },
     {
       "path": "src/apls.rs",

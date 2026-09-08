@@ -7,18 +7,19 @@
   "crate": "nextcore-tool",
   "description": "command-line preparation and orchestration",
   "source_path": "nextcore/crates/nextcore-tool",
-  "source_commit": "dcc90013109eac694ccbf997b1e44a7018480f78",
+  "source_commit": "045065700cbd037eaaa974faf957ba15cb628370",
   "depends_on": [
     "26x86/Nextcore-Core",
     "26x86/Nextcore-APLS"
   ],
   "initial_tag": "26x86-Nextcore-Tool-v0.1.0",
   "generated_utc": "2026-09-08T06:40:20.968218+00:00",
-  "release_tag": "26x86-Nextcore-Tool-v0.1.1",
-  "previous_head": "37e374749a06690b14ac93dd94eed7df8b366c31",
+  "release_tag": "26x86-Nextcore-Tool-v0.1.2",
+  "previous_head": "f1d26043f3f8c8f4bb663ef9f9b203dbf42c8c2d",
   "dependency_tags": {
     "26x86/Nextcore-Core": "26x86-Nextcore-Core-v0.1.1",
     "26x86/Nextcore-APLS": "26x86-Nextcore-APLS-v0.1.1"
   },
-  "export_method": "immutable git objects applied to existing main; manifest dependency rewrite only"
+  "export_method": "immutable git objects applied to existing main; manifest dependency rewrite only",
+  "release_note": "Make the authored CLI test fixture crate-local for standalone Linux clones"
 }

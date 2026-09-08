@@ -29,7 +29,7 @@
     {
       "path": "README.md",
       "bytes": 648,
-      "sha256": "69f5f2eaed4e51f8ecf4feaf51c49f8155086cb80d84963a51c5e7b783fc250d"
+      "sha256": "c9040c6110e2401b66eff4cf141a46c7c9df16d0b988d889fd31b6f693fadf89"
     },
     {
       "path": "src/apls.rs",
@@ -53,8 +53,13 @@
     },
     {
       "path": "tests/bundle_cli.rs",
-      "bytes": 10946,
-      "sha256": "f77c341bcf7de02c7c509833817587faa3d73aa8f2ead30a9e7aa10830ebc9b8"
+      "bytes": 10925,
+      "sha256": "882ff603344f6eb8b6ea499540955382bece9efec4eb39e0811aca9f78ccb0d9"
+    },
+    {
+      "path": "tests/data/sample.plist",
+      "bytes": 1786,
+      "sha256": "b5b840c3cd72295b40c057a26be3932fc60886bb3628b9eed1456359f103bf09"
     }
   ]
 }

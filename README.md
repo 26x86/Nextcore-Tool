@@ -1,14 +1,18 @@
-# NextCore Tool
+# Nextcore-Tool
 
-Command-line preparation and orchestration with independently pinned NextCore modules.
+Command-line configuration validation, EFI bundle creation and recovery diagnostics.
+This standalone crate pins Core and APLS to immutable Git commits. It requires
+no sibling checkout; the integration workspace patches those URLs to its exact
+submodule versions during local development.
 
-Source snapshot: [65d1e85db2dfcd4e1c07656bb0bfc315d36fac83](https://github.com/26x86/26x86/commit/65d1e85db2dfcd4e1c07656bb0bfc315d36fac83).
+```sh
+cargo test --all-targets
+cargo run -- --help
+```
 
-Repository release: `26x86-Nextcore-Tool-v0.1.3`. Cargo package version is preserved from source.
+EFI bundles accept a structurally validated x86_64 EFI image, including the
+NXARMJIT image produced by Nextcore-EFI. ARM64e macOS targets an x86 computer;
+the command-line tool is build/install orchestration, not the target JIT runtime.
 
-Public source only; no Apple firmware, filesystem driver payload, operating-system image or private research input is bundled. Module checks establish their stated source/build boundary; they do not establish installed macOS boot, guest Metal or physical hardware support.
-
-## Fixed dependencies
-
-- [Core](https://github.com/26x86/Nextcore-Core/tree/26x86-Nextcore-Core-v0.1.2)
-- [APLS](https://github.com/26x86/Nextcore-APLS/tree/26x86-Nextcore-APLS-v0.1.1)
+Earlier release provenance is preserved in `repository.json`. Source/build tests
+do not establish macOS boot or guest Metal acceleration.

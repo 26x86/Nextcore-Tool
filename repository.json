@@ -9,10 +9,10 @@
   "development": {
     "branch": "codex/arm64e-boot-metal",
     "base_commit": "36e0fd50047182ee6b2abdca87249d8c1a084e73",
-    "updated_utc": "2026-09-08T13:32:41.114616+00:00",
+    "updated_utc": "2026-09-08T14:44:44.036215+00:00",
     "dependency_revisions": {
-      "https://github.com/26x86/Nextcore-Core": "757d8e668141ebc15a265f13383448bc609defb9",
-      "https://github.com/26x86/Nextcore-APLS": "b885ab2f5dfe1d0c450bba148fa94b8a1e7e79c9"
+      "https://github.com/26x86/Nextcore-Core": "6105cd7996ef2ea4db35d7d3a1e8822d0703aae9",
+      "https://github.com/26x86/Nextcore-APLS": "e6d09207374ff2f1b0f2df182b3287f159fbd329"
     },
     "integration": "Git submodule with an immutable gitlink; workspace source patches for local development"
   },

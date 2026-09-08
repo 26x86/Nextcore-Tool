@@ -1,4 +1,4 @@
-name: Nextcore-Tool CI
+name: NextCore Tool CI
 on:
   push:
   pull_request:

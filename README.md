@@ -1,10 +1,14 @@
-# Nextcore-Tool
+# NextCore Tool
 
-Nextcore command-line orchestration. This is the `nextcore-tool` clean-room module from [26x86](https://github.com/26x86/26x86).
+Command-line preparation and orchestration.
 
-It contains no Apple firmware, operating-system binaries, or private research inputs. Passing its tests is module-level evidence, not a macOS boot claim.
+Clean-room module from [26x86](https://github.com/26x86/26x86), source commit `dcc90013109eac694ccbf997b1e44a7018480f78`.
 
-## Fixed module dependencies
+Repository snapshot: `26x86-Nextcore-Tool-v0.1.1`. Package version is preserved from that source.
 
-- [Nextcore-Core](https://github.com/26x86/Nextcore-Core)
-- [Nextcore-APLS](https://github.com/26x86/Nextcore-APLS)
+Public source only; no Apple firmware, operating-system binaries or private research inputs. Module checks do not establish macOS boot, guest Metal or physical hardware support.
+
+## Fixed dependencies
+
+- [Core](https://github.com/26x86/Nextcore-Core/tree/26x86-Nextcore-Core-v0.1.1)
+- [APLS](https://github.com/26x86/Nextcore-APLS/tree/26x86-Nextcore-APLS-v0.1.1)

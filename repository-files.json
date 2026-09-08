@@ -3,33 +3,33 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 30,
-      "sha256": "9319637ee361d94b77df3b8f63b650075d6933135e97a0e9b7fdf4240fe7b95c"
+      "bytes": 28,
+      "sha256": "4b0f1fc438f30f25abe421b7542e9f3803b8b5c15ca3695614222e2bc547a9fe"
     },
     {
       "path": ".github/workflows/ci.yml",
-      "bytes": 285,
-      "sha256": "dec4590d8c9accc84e082a95db331a3830618fd7a626955c92fabd082a0b6b8a"
+      "bytes": 271,
+      "sha256": "597eacc2180a274a4119f43015e4ceaa1d86d5c878006a9e612988bdaf23f7f5"
     },
     {
       "path": ".gitignore",
-      "bytes": 22,
-      "sha256": "2a58829f54c2e8f11df2f4f4e94b1c06962eee8a1bd17bab47a9f2221eac95c9"
+      "bytes": 20,
+      "sha256": "9cc2c8cc102e0b2a0a177c8f594abc9b9776300a04473c24b45d52c1007a4119"
     },
     {
       "path": "Cargo.toml",
-      "bytes": 470,
-      "sha256": "7d65f2bacd0593ab8cf216c2c3b075b612dc53543513950a62c8a804867d2ce0"
+      "bytes": 456,
+      "sha256": "55622a33d122bfb55258eaaa6d7bf1e6625ea919c0b7794f2e10d45a91248a06"
     },
     {
       "path": "LICENSE.txt",
-      "bytes": 1865,
-      "sha256": "64d8c31222df29cfd8327944815b8d6b3c202a45540d49524a4617f50825a5c4"
+      "bytes": 1851,
+      "sha256": "77c458ccb6116400cf960f8951630bc3b8b34731b56ffbd736b95c2b78449104"
     },
     {
       "path": "README.md",
-      "bytes": 458,
-      "sha256": "1118f7de1ae0b698958ba84ad81afc0c9bada57ae3d4069ba6f39435691549f5"
+      "bytes": 648,
+      "sha256": "69f5f2eaed4e51f8ecf4feaf51c49f8155086cb80d84963a51c5e7b783fc250d"
     },
     {
       "path": "src/apls.rs",
@@ -49,7 +49,7 @@
     {
       "path": "src/main.rs",
       "bytes": 4525,
-      "sha256": "66e38f111f4c593bfc481f7bb3e9637ce8a24403ed6cb1739a2eec0670cb84b3"
+      "sha256": "eb96082cc4623395ca93e50c42a3c1e6674bc16b8eac4e24befb64201dcb28ad"
     },
     {
       "path": "tests/bundle_cli.rs",

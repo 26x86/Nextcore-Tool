@@ -88,7 +88,6 @@ fn main() -> Result<ExitCode> {
         }
         Command::InstallUsb { plist, efi, out } => {
             build_efi_bundle(&plist, &efi, &out)?;
-            println!("EFI 복사 완료 — macOS에서 계속하세요.");
             println!("EFI copy complete — continue on macOS.");
             println!("EFI layout assembled at {}", out.display());
             println!("Run createinstallmedia on macOS to create the install media.");

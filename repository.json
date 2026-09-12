@@ -9,9 +9,9 @@
   "development": {
     "branch": "codex/framebuffer-core-pin-20260912",
     "base_commit": "36e0fd50047182ee6b2abdca87249d8c1a084e73",
-    "updated_utc": "2026-09-12T11:09:20.701912+00:00",
+    "updated_utc": "2026-09-12T11:30:55.898425+00:00",
     "dependency_revisions": {
-      "https://github.com/26x86/Nextcore-Core": "cead709d8dc4894296b093f3f71859a54d05c65f",
+      "https://github.com/26x86/Nextcore-Core": "041ff769096bad303ebb85b98dfb083e7ea817da",
       "https://github.com/26x86/Nextcore-APLS": "9b6ccaa421f668fdb212ccd14969002f6196a18f"
     },
     "integration": "Git submodule with an immutable gitlink; workspace source patches for local development"

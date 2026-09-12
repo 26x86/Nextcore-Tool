@@ -7,11 +7,11 @@
   "crate": "nextcore-tool",
   "description": "Command-line preparation and orchestration with independently pinned NextCore modules.",
   "development": {
-    "branch": "codex/deep-trace-core",
+    "branch": "codex/framebuffer-core-pin-20260912",
     "base_commit": "36e0fd50047182ee6b2abdca87249d8c1a084e73",
-    "updated_utc": "2026-09-08T20:42:57.437534+00:00",
+    "updated_utc": "2026-09-12T13:16:59.997590+00:00",
     "dependency_revisions": {
-      "https://github.com/26x86/Nextcore-Core": "bab7ac453a0f8ceab558eca1ad069bcfaf139776",
+      "https://github.com/26x86/Nextcore-Core": "4ae6e9aff31be93cf570b56975b711902f3fb7e7",
       "https://github.com/26x86/Nextcore-APLS": "9b6ccaa421f668fdb212ccd14969002f6196a18f"
     },
     "integration": "Git submodule with an immutable gitlink; workspace source patches for local development"

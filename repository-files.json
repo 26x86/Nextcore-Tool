@@ -1,0 +1,65 @@
+{
+  "schema": "26x86.repository-files/1",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 28,
+      "sha256": "4b0f1fc438f30f25abe421b7542e9f3803b8b5c15ca3695614222e2bc547a9fe"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 271,
+      "sha256": "e98920df1999c810355c09f4136d6945693f08b12766bb14ac00080a65a3efd7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 20,
+      "sha256": "9cc2c8cc102e0b2a0a177c8f594abc9b9776300a04473c24b45d52c1007a4119"
+    },
+    {
+      "path": "Cargo.toml",
+      "bytes": 484,
+      "sha256": "ff5802fce557c8de6a6903f53339d536b31497c1bce357edef19e3c89dafe69e"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1851,
+      "sha256": "77c458ccb6116400cf960f8951630bc3b8b34731b56ffbd736b95c2b78449104"
+    },
+    {
+      "path": "README.md",
+      "bytes": 448,
+      "sha256": "65bf3e323006073a94cdb7076a11c1b572b1e2da64bc52532d4b0348d90f6bce"
+    },
+    {
+      "path": "src/apls.rs",
+      "bytes": 26268,
+      "sha256": "a33439d666b64d1036bf26d10732731fa1cf580c2dccac0bf1dd5fb378429362"
+    },
+    {
+      "path": "src/efi.rs",
+      "bytes": 6622,
+      "sha256": "012fcdd1860267fc771ad701784ce493e6f2323fe544ec5519c80b20ae9350f4"
+    },
+    {
+      "path": "src/lib.rs",
+      "bytes": 3078,
+      "sha256": "8a584b9f6edc6fca29ea517627f769f7d9a29fc5e62458262b0c2c0ff68f4263"
+    },
+    {
+      "path": "src/main.rs",
+      "bytes": 4449,
+      "sha256": "6d49cbbeb543fb4287c41abda3e1afe900278b4bfba98c5c1aa67b621371831e"
+    },
+    {
+      "path": "tests/bundle_cli.rs",
+      "bytes": 10925,
+      "sha256": "882ff603344f6eb8b6ea499540955382bece9efec4eb39e0811aca9f78ccb0d9"
+    },
+    {
+      "path": "tests/data/sample.plist",
+      "bytes": 1786,
+      "sha256": "b5b840c3cd72295b40c057a26be3932fc60886bb3628b9eed1456359f103bf09"
+    }
+  ]
+}

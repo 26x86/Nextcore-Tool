@@ -10,5 +10,5 @@ anyhow = "1"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 plist = "1.10"
-nextcore-core = { git = "https://github.com/26x86/Nextcore-Core.git", rev = "b253e0ece2a3f2f844f14ab7345d77394c597240" }
-nextcore-apls = { git = "https://github.com/26x86/Nextcore-APLS.git", rev = "302c75d62864a5e1724c3266974053ffad4c3b30" }
+nextcore-core = { git = "https://github.com/26x86/Nextcore-Core.git", rev = "f4b921206dfff2b51449eb7b7b03200f07b445b4" }
+nextcore-apls = { git = "https://github.com/26x86/Nextcore-APLS.git", rev = "1d7c330186ceb4a62dd48259b2f0af7525844315" }

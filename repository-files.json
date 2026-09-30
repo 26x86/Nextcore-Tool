@@ -1,5 +1,6 @@
 {
-  "schema": "26x86.repository-files/1",
+  "schema": "26x86.repository-files/2",
+  "source_revision": "eccda6849e8ddc19d9c1b68a7f47381312201d58",
   "files": [
     {
       "path": ".gitattributes",
@@ -19,7 +20,7 @@
     {
       "path": "Cargo.toml",
       "bytes": 484,
-      "sha256": "c50cda0fa15ab4c6baf91bb2c4198e0e68ad79c9faac133e138bbca3a60f4afb"
+      "sha256": "f9334bf5126c067ed66587f3a7a91859aa4320da6e1fbddd9a477c9035593db4"
     },
     {
       "path": "LICENSE.txt",
@@ -28,13 +29,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 738,
-      "sha256": "aceeb6a29770221f80f211a1417da5c108003ce32b0eaf81df024eda7a6e7ef2"
+      "bytes": 1338,
+      "sha256": "ff1fbf3f62d7edb8e01150f45f12d65cbae1e3b9834d008967fa0a2f05b9f24b"
     },
     {
       "path": "repository.json",
-      "bytes": 1870,
-      "sha256": "1a89609f2a9ab59437925b61779eb2a2073bb8295338d99685c17b237a5e2f52"
+      "bytes": 2212,
+      "sha256": "e47691ad1e30fd0ef34e298018294f46c0d1b13ebe59ee207c0f8ccec43af618"
     },
     {
       "path": "src/apls.rs",
@@ -53,8 +54,8 @@
     },
     {
       "path": "src/main.rs",
-      "bytes": 4525,
-      "sha256": "eb96082cc4623395ca93e50c42a3c1e6674bc16b8eac4e24befb64201dcb28ad"
+      "bytes": 4449,
+      "sha256": "6d49cbbeb543fb4287c41abda3e1afe900278b4bfba98c5c1aa67b621371831e"
     },
     {
       "path": "tests/bundle_cli.rs",

@@ -1,0 +1,70 @@
+{
+  "schema": "26x86.repository-files/1",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 28,
+      "sha256": "4b0f1fc438f30f25abe421b7542e9f3803b8b5c15ca3695614222e2bc547a9fe"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 271,
+      "sha256": "597eacc2180a274a4119f43015e4ceaa1d86d5c878006a9e612988bdaf23f7f5"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 20,
+      "sha256": "9cc2c8cc102e0b2a0a177c8f594abc9b9776300a04473c24b45d52c1007a4119"
+    },
+    {
+      "path": "Cargo.toml",
+      "bytes": 484,
+      "sha256": "70f2e5d42bd66a6479c6c4c355e87d4dc8c5a9bfe2dab9ed976b5eae6faf4d01"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1851,
+      "sha256": "77c458ccb6116400cf960f8951630bc3b8b34731b56ffbd736b95c2b78449104"
+    },
+    {
+      "path": "README.md",
+      "bytes": 738,
+      "sha256": "aceeb6a29770221f80f211a1417da5c108003ce32b0eaf81df024eda7a6e7ef2"
+    },
+    {
+      "path": "repository.json",
+      "bytes": 1856,
+      "sha256": "7ab266726f18bd0fda85cf082de98554dbb2a6be9230a74538669ab6c98e20f6"
+    },
+    {
+      "path": "src/apls.rs",
+      "bytes": 26268,
+      "sha256": "a33439d666b64d1036bf26d10732731fa1cf580c2dccac0bf1dd5fb378429362"
+    },
+    {
+      "path": "src/efi.rs",
+      "bytes": 6622,
+      "sha256": "012fcdd1860267fc771ad701784ce493e6f2323fe544ec5519c80b20ae9350f4"
+    },
+    {
+      "path": "src/lib.rs",
+      "bytes": 3078,
+      "sha256": "8a584b9f6edc6fca29ea517627f769f7d9a29fc5e62458262b0c2c0ff68f4263"
+    },
+    {
+      "path": "src/main.rs",
+      "bytes": 4525,
+      "sha256": "eb96082cc4623395ca93e50c42a3c1e6674bc16b8eac4e24befb64201dcb28ad"
+    },
+    {
+      "path": "tests/bundle_cli.rs",
+      "bytes": 10925,
+      "sha256": "882ff603344f6eb8b6ea499540955382bece9efec4eb39e0811aca9f78ccb0d9"
+    },
+    {
+      "path": "tests/data/sample.plist",
+      "bytes": 1786,
+      "sha256": "b5b840c3cd72295b40c057a26be3932fc60886bb3628b9eed1456359f103bf09"
+    }
+  ]
+}

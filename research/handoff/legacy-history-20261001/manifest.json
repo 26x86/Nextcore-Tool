@@ -1,0 +1,216 @@
+{
+  "schema": 1,
+  "module": "nextcore-tool",
+  "public_repository": "https://github.com/26x86/Nextcore-Tool.git",
+  "authoritative_main_base": "49ab848e7c1c33c43e18c0a15886156dbf26924b",
+  "legacy_main_revision": "46969c53740f10e652c3306e6b818e8ecf56507c",
+  "frozen_source_HEAD": "4bb09da1243eba98ee8fb0ed01b58b3f36484209",
+  "archive_kind": "Historical source variants from diverged public commit identities",
+  "purpose": "Preserve exact older conflicting source and license variants while the current module APIs and dependency pins remain active.",
+  "verification_boundary": "Git object ancestry and source bytes only; no compiler, runtime, guest boot or device acceptance has been executed for this handoff.",
+  "missing_commit_count": 12,
+  "missing_commits": [
+    {
+      "sha": "292ebd1d9edb19b68e1da473ba3cb52f15caa7b1",
+      "parents": [
+        "36e0fd50047182ee6b2abdca87249d8c1a084e73",
+        "c14971a9635db2d7ec499e9540c7a5fa4647a908"
+      ],
+      "subject": "Merge pull request #1 from 26x86/codex/arm64e-boot-metal",
+      "commit_stats": "Cargo.toml            |  4 ++--\n README.md             | 24 ++++++++++++++----------\n repository-files.json | 13 +++++++++----\n repository.json       | 51 +++++++++++++++++++++++++++++++++++----------------\n 4 files changed, 60 insertions(+), 32 deletions(-)"
+    },
+    {
+      "sha": "7282944f9b93fe9631fc11ba6eb8d8f75e973f62",
+      "parents": [
+        "292ebd1d9edb19b68e1da473ba3cb52f15caa7b1"
+      ],
+      "subject": "Resolve portable GPU backend through pinned APLS dependency",
+      "commit_stats": "Cargo.toml            | 2 +-\n repository-files.json | 4 ++--\n repository.json       | 6 +++---\n 3 files changed, 6 insertions(+), 6 deletions(-)"
+    },
+    {
+      "sha": "ad57b47cb8b4a8f244039afdf38cb20ea6c55b92",
+      "parents": [
+        "292ebd1d9edb19b68e1da473ba3cb52f15caa7b1",
+        "7282944f9b93fe9631fc11ba6eb8d8f75e973f62"
+      ],
+      "subject": "Merge pull request #2 from 26x86/codex/arm64e-memory-gpu",
+      "commit_stats": "Cargo.toml            | 2 +-\n repository-files.json | 4 ++--\n repository.json       | 6 +++---\n 3 files changed, 6 insertions(+), 6 deletions(-)"
+    },
+    {
+      "sha": "926c77721d4bc9c9f2650189aa96ddbd0e9f0a2a",
+      "parents": [
+        "7282944f9b93fe9631fc11ba6eb8d8f75e973f62"
+      ],
+      "subject": "Align CLI configuration dependency with bounded diagnostic Core",
+      "commit_stats": "Cargo.toml            | 2 +-\n repository-files.json | 6 +++---\n repository.json       | 6 +++---\n 3 files changed, 7 insertions(+), 7 deletions(-)"
+    },
+    {
+      "sha": "08db39cc9601e0d32fdf0e29ff0b6f8229ba6b16",
+      "parents": [
+        "ad57b47cb8b4a8f244039afdf38cb20ea6c55b92",
+        "926c77721d4bc9c9f2650189aa96ddbd0e9f0a2a"
+      ],
+      "subject": "Merge pull request #3 from 26x86/codex/native-memory-integration",
+      "commit_stats": "Cargo.toml            | 2 +-\n repository-files.json | 6 +++---\n repository.json       | 6 +++---\n 3 files changed, 7 insertions(+), 7 deletions(-)"
+    },
+    {
+      "sha": "52bfa9311a8335f36a4fc1988d229c9839935dfe",
+      "parents": [
+        "926c77721d4bc9c9f2650189aa96ddbd0e9f0a2a"
+      ],
+      "subject": "Pin Core guest-memory ownership in the standalone build tool",
+      "commit_stats": "Cargo.toml            | 2 +-\n repository-files.json | 6 +++---\n repository.json       | 6 +++---\n 3 files changed, 7 insertions(+), 7 deletions(-)"
+    },
+    {
+      "sha": "14977ec34b1a9772ca5fd4d98990a67a93729074",
+      "parents": [
+        "08db39cc9601e0d32fdf0e29ff0b6f8229ba6b16",
+        "52bfa9311a8335f36a4fc1988d229c9839935dfe"
+      ],
+      "subject": "Merge pull request #4 from 26x86/codex/owned-memory-core",
+      "commit_stats": "Cargo.toml            | 2 +-\n repository-files.json | 6 +++---\n repository.json       | 6 +++---\n 3 files changed, 7 insertions(+), 7 deletions(-)"
+    },
+    {
+      "sha": "4bb09da1243eba98ee8fb0ed01b58b3f36484209",
+      "parents": [
+        "52bfa9311a8335f36a4fc1988d229c9839935dfe"
+      ],
+      "subject": "Select Core firmware-compatible software hashing",
+      "commit_stats": "Cargo.toml            | 2 +-\n repository-files.json | 6 +++---\n repository.json       | 6 +++---\n 3 files changed, 7 insertions(+), 7 deletions(-)"
+    },
+    {
+      "sha": "6ead7166304749d0cac9d4dd18d92e69f5c44d7a",
+      "parents": [
+        "14977ec34b1a9772ca5fd4d98990a67a93729074",
+        "4bb09da1243eba98ee8fb0ed01b58b3f36484209"
+      ],
+      "subject": "Merge pull request #5 from 26x86/codex/uefi-hash-core",
+      "commit_stats": "Cargo.toml            | 2 +-\n repository-files.json | 6 +++---\n repository.json       | 6 +++---\n 3 files changed, 7 insertions(+), 7 deletions(-)"
+    },
+    {
+      "sha": "8ea73c8ccda579566964cc3488844b6c52b1518f",
+      "parents": [
+        "4bb09da1243eba98ee8fb0ed01b58b3f36484209"
+      ],
+      "subject": "Align tool configuration with the explicitly selected deep-trace Core",
+      "commit_stats": "Cargo.toml            | 2 +-\n repository-files.json | 6 +++---\n repository.json       | 6 +++---\n 3 files changed, 7 insertions(+), 7 deletions(-)"
+    },
+    {
+      "sha": "391adb798242f0013096a259f71efd8150d0dea6",
+      "parents": [
+        "6ead7166304749d0cac9d4dd18d92e69f5c44d7a",
+        "8ea73c8ccda579566964cc3488844b6c52b1518f"
+      ],
+      "subject": "Merge pull request #6 from 26x86/codex/deep-trace-core",
+      "commit_stats": "Cargo.toml            | 2 +-\n repository-files.json | 6 +++---\n repository.json       | 6 +++---\n 3 files changed, 7 insertions(+), 7 deletions(-)"
+    },
+    {
+      "sha": "46969c53740f10e652c3306e6b818e8ecf56507c",
+      "parents": [
+        "391adb798242f0013096a259f71efd8150d0dea6"
+      ],
+      "subject": "fix(cli): enforce English-only output message",
+      "commit_stats": "src/main.rs | 1 -\n 1 file changed, 1 deletion(-)"
+    }
+  ],
+  "conflict_paths": [
+    "Cargo.toml",
+    "repository-files.json",
+    "repository.json"
+  ],
+  "files": [
+    {
+      "original_path": "Cargo.toml",
+      "archive_path": "46969c53740f/Cargo.toml",
+      "source_revisions": [
+        "46969c53740f10e652c3306e6b818e8ecf56507c"
+      ],
+      "bytes": 484,
+      "sha256": "70f2e5d42bd66a6479c6c4c355e87d4dc8c5a9bfe2dab9ed976b5eae6faf4d01",
+      "git_blob_sha1": "81787d761aff7b8656fd086cf781a2871634db56",
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "retained_active_path": "Cargo.toml"
+    },
+    {
+      "original_path": "repository-files.json",
+      "archive_path": "46969c53740f/repository-files.json",
+      "source_revisions": [
+        "46969c53740f10e652c3306e6b818e8ecf56507c"
+      ],
+      "bytes": 1987,
+      "sha256": "d5abb7f3c29bf024d2402dd9068318940415b6d64bf1e4477e10dbf4824c42e7",
+      "git_blob_sha1": "4bdcc8b9c735aba8fef1ef1e085ead42b52ba2cd",
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "retained_active_path": "repository-files.json"
+    },
+    {
+      "original_path": "repository.json",
+      "archive_path": "46969c53740f/repository.json",
+      "source_revisions": [
+        "46969c53740f10e652c3306e6b818e8ecf56507c"
+      ],
+      "bytes": 1856,
+      "sha256": "7ab266726f18bd0fda85cf082de98554dbb2a6be9230a74538669ab6c98e20f6",
+      "git_blob_sha1": "ddec43946ea07fa8f73a3ca05be4d9c0a30ad511",
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "retained_active_path": "repository.json"
+    },
+    {
+      "original_path": "LICENSE.txt",
+      "archive_path": "46969c53740f/LICENSE.txt",
+      "source_revisions": [
+        "46969c53740f10e652c3306e6b818e8ecf56507c",
+        "4bb09da1243eba98ee8fb0ed01b58b3f36484209"
+      ],
+      "bytes": 1851,
+      "sha256": "77c458ccb6116400cf960f8951630bc3b8b34731b56ffbd736b95c2b78449104",
+      "git_blob_sha1": "f7389913f3fd1cb41276bb098a352b0e27e7e879",
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "retained_active_path": "LICENSE.txt"
+    },
+    {
+      "original_path": "Cargo.toml",
+      "archive_path": "4bb09da1243e/Cargo.toml",
+      "source_revisions": [
+        "4bb09da1243eba98ee8fb0ed01b58b3f36484209"
+      ],
+      "bytes": 484,
+      "sha256": "6bc00c9ed0e688ae6b584debb5f432bccb2310853eda276544b79b517420414a",
+      "git_blob_sha1": "b22b5eb6810dd9c5e5ace4b05171723096791ec1",
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "retained_active_path": "Cargo.toml"
+    },
+    {
+      "original_path": "repository-files.json",
+      "archive_path": "4bb09da1243e/repository-files.json",
+      "source_revisions": [
+        "4bb09da1243eba98ee8fb0ed01b58b3f36484209"
+      ],
+      "bytes": 1987,
+      "sha256": "42f3d395d59a2a6ed89fc52009ec1bb7e2df46d95564eb80cf15b7708aa20392",
+      "git_blob_sha1": "ff779cab19b380e4f68c29e94841a66213fd85da",
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "retained_active_path": "repository-files.json"
+    },
+    {
+      "original_path": "repository.json",
+      "archive_path": "4bb09da1243e/repository.json",
+      "source_revisions": [
+        "4bb09da1243eba98ee8fb0ed01b58b3f36484209"
+      ],
+      "bytes": 1855,
+      "sha256": "51414a52af422802e65fce5ca04f874827d86631f7af4b2002b6d2e4547a38b4",
+      "git_blob_sha1": "374542e053f5928b72c7bcf2dbd6a121c056a43b",
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "retained_active_path": "repository.json"
+    }
+  ],
+  "absent_paths": []
+}

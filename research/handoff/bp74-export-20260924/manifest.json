@@ -1,0 +1,298 @@
+{
+  "schema": 1,
+  "module": "nextcore-tool",
+  "public_repository": "https://github.com/26x86/Nextcore-Tool.git",
+  "current_published_prior_handoff_revision": "e729048fb07c6586ae95dd9d0e64b652a65a4095",
+  "export_commit": "a4131cd583e7ada7785831e0549a79fee835519d",
+  "export_commit_parents": [],
+  "export_tree": "846a665c00ff2a39c8c49e3cf6dd4c4ed6176e87",
+  "original_public_parent_source_commit": "93e4a9ebc1a05e2cbec78125a0186ca1b71d98d6",
+  "original_public_source_tree_URL": "https://github.com/26x86/26x86/tree/93e4a9ebc1a05e2cbec78125a0186ca1b71d98d6/nextcore/crates/nextcore-tool",
+  "archive_kind": "Historical unfinished public module export variants; original unrelated Git commit identity retained by ordinary merge",
+  "current_active_source_modified": false,
+  "preservation_scope": "Exact older public variants differing from current module source, plus the original source license. Export paths already equal to active public source remain preserved by both Git histories.",
+  "attribute_boundary": "Historical .gitattributes and .gitignore are stored as inert metadata filenames. Original paths remain in the original export commit and in each file record. Archive-only attributes disable text normalization and whitespace diagnostics on preserved variants.",
+  "verification_boundary": "Source byte and Git ancestry verification only. No compiler, test, EFI, guest boot, macOS, Metal or device acceptance was executed by this archival task.",
+  "source_tree_inventory": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "5dabb2b27b17fb46a94713256fba0372eaa68784",
+      "bytes": 28,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "de11ba6dfdb4f3c22a48d5796928c1c239ff5f21",
+      "bytes": 271,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "ca98cd96efdc228b0c0d0e264bfc0ce9ddadfdd7",
+      "bytes": 20,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "f0dd002e76a27726176728516e6927f9aaa44b2e",
+      "bytes": 484,
+      "blob_already_in_published_prior_history": false
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "f7389913f3fd1cb41276bb098a352b0e27e7e879",
+      "bytes": 1851,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "f562426c3cd3527706e94e37ec693f6ba3bcc061",
+      "bytes": 448,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "repository-files.json",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "11b8dc9b9abdc7541c11407ff8b6457ce66664f2",
+      "bytes": 1837,
+      "blob_already_in_published_prior_history": false
+    },
+    {
+      "path": "repository.json",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "080a55ca333e1b084277ddadd3499ad7affd6f44",
+      "bytes": 508,
+      "blob_already_in_published_prior_history": false
+    },
+    {
+      "path": "src/apls.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "66ccdb19340d60080a794ef9cf076a10bb003145",
+      "bytes": 26268,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "src/efi.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "2669966dfce74a6307aa112dfd13feaa1cfa7d92",
+      "bytes": 6622,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "3a4b263a2fe5469f9aafe5a750419e0b0ee80cd8",
+      "bytes": 3078,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "src/main.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "7fa7485191c5c685604db5e6e4e3dfef8eae749d",
+      "bytes": 4449,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "tests/bundle_cli.rs",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "8fbbe8e12578bb29b0bdb3479f8643d7dc1fdc93",
+      "bytes": 10925,
+      "blob_already_in_published_prior_history": true
+    },
+    {
+      "path": "tests/data/sample.plist",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha1": "8ef1f4c08360ee24fc4c7f0028e8548c0a3fce30",
+      "bytes": 1786,
+      "blob_already_in_published_prior_history": true
+    }
+  ],
+  "original_public_source_comparisons": [
+    {
+      "export_path": ".gitattributes",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/.gitattributes",
+      "original_blob": "5dabb2b27b17fb46a94713256fba0372eaa68784",
+      "export_blob": "5dabb2b27b17fb46a94713256fba0372eaa68784",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": ".github/workflows/ci.yml",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/.github/workflows/ci.yml",
+      "original_blob": "e2cc30cf1ff660adc7072d84e5a211f2bbf2e6dd",
+      "export_blob": "de11ba6dfdb4f3c22a48d5796928c1c239ff5f21",
+      "exact_original_public_source_blob": false
+    },
+    {
+      "export_path": ".gitignore",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/.gitignore",
+      "original_blob": "ca98cd96efdc228b0c0d0e264bfc0ce9ddadfdd7",
+      "export_blob": "ca98cd96efdc228b0c0d0e264bfc0ce9ddadfdd7",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "Cargo.toml",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/Cargo.toml",
+      "original_blob": "f0dd002e76a27726176728516e6927f9aaa44b2e",
+      "export_blob": "f0dd002e76a27726176728516e6927f9aaa44b2e",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "LICENSE.txt",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/LICENSE.txt",
+      "original_blob": "f7389913f3fd1cb41276bb098a352b0e27e7e879",
+      "export_blob": "f7389913f3fd1cb41276bb098a352b0e27e7e879",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "README.md",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/README.md",
+      "original_blob": "3a752eaab1e6576264e7e69bc0b5f9fcdfc8c527",
+      "export_blob": "f562426c3cd3527706e94e37ec693f6ba3bcc061",
+      "exact_original_public_source_blob": false
+    },
+    {
+      "export_path": "repository-files.json",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/repository-files.json",
+      "original_blob": "ac2ca295d1efe14c7909a845ec2769582b09fc37",
+      "export_blob": "11b8dc9b9abdc7541c11407ff8b6457ce66664f2",
+      "exact_original_public_source_blob": false
+    },
+    {
+      "export_path": "repository.json",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/repository.json",
+      "original_blob": "c85821be6baf6c12120711284dd68fb63f953cd4",
+      "export_blob": "080a55ca333e1b084277ddadd3499ad7affd6f44",
+      "exact_original_public_source_blob": false
+    },
+    {
+      "export_path": "src/apls.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/src/apls.rs",
+      "original_blob": "66ccdb19340d60080a794ef9cf076a10bb003145",
+      "export_blob": "66ccdb19340d60080a794ef9cf076a10bb003145",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "src/efi.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/src/efi.rs",
+      "original_blob": "2669966dfce74a6307aa112dfd13feaa1cfa7d92",
+      "export_blob": "2669966dfce74a6307aa112dfd13feaa1cfa7d92",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "src/lib.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/src/lib.rs",
+      "original_blob": "3a4b263a2fe5469f9aafe5a750419e0b0ee80cd8",
+      "export_blob": "3a4b263a2fe5469f9aafe5a750419e0b0ee80cd8",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "src/main.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/src/main.rs",
+      "original_blob": "7fa7485191c5c685604db5e6e4e3dfef8eae749d",
+      "export_blob": "7fa7485191c5c685604db5e6e4e3dfef8eae749d",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "tests/bundle_cli.rs",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/tests/bundle_cli.rs",
+      "original_blob": "8fbbe8e12578bb29b0bdb3479f8643d7dc1fdc93",
+      "export_blob": "8fbbe8e12578bb29b0bdb3479f8643d7dc1fdc93",
+      "exact_original_public_source_blob": true
+    },
+    {
+      "export_path": "tests/data/sample.plist",
+      "original_public_source_path": "nextcore/crates/nextcore-tool/tests/data/sample.plist",
+      "original_blob": "8ef1f4c08360ee24fc4c7f0028e8548c0a3fce30",
+      "export_blob": "8ef1f4c08360ee24fc4c7f0028e8548c0a3fce30",
+      "exact_original_public_source_blob": true
+    }
+  ],
+  "files": [
+    {
+      "original_relative_path": ".github/workflows/ci.yml",
+      "archive_relative_path": ".github/workflows/ci.yml",
+      "source_revision": "a4131cd583e7ada7785831e0549a79fee835519d",
+      "git_blob_sha1": "de11ba6dfdb4f3c22a48d5796928c1c239ff5f21",
+      "sha256": "e98920df1999c810355c09f4136d6945693f08b12766bb14ac00080a65a3efd7",
+      "bytes": 271,
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "license_path": "LICENSE.txt"
+    },
+    {
+      "original_relative_path": "Cargo.toml",
+      "archive_relative_path": "Cargo.toml",
+      "source_revision": "a4131cd583e7ada7785831e0549a79fee835519d",
+      "git_blob_sha1": "f0dd002e76a27726176728516e6927f9aaa44b2e",
+      "sha256": "ff5802fce557c8de6a6903f53339d536b31497c1bce357edef19e3c89dafe69e",
+      "bytes": 484,
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "license_path": "LICENSE.txt"
+    },
+    {
+      "original_relative_path": "README.md",
+      "archive_relative_path": "README.md",
+      "source_revision": "a4131cd583e7ada7785831e0549a79fee835519d",
+      "git_blob_sha1": "f562426c3cd3527706e94e37ec693f6ba3bcc061",
+      "sha256": "65bf3e323006073a94cdb7076a11c1b572b1e2da64bc52532d4b0348d90f6bce",
+      "bytes": 448,
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "license_path": "LICENSE.txt"
+    },
+    {
+      "original_relative_path": "repository-files.json",
+      "archive_relative_path": "repository-files.json",
+      "source_revision": "a4131cd583e7ada7785831e0549a79fee835519d",
+      "git_blob_sha1": "11b8dc9b9abdc7541c11407ff8b6457ce66664f2",
+      "sha256": "b4c1cbcd6b61a74c378c96a04b391b62104acb5a5bcefedb76512cf5528f1f2e",
+      "bytes": 1837,
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "license_path": "LICENSE.txt"
+    },
+    {
+      "original_relative_path": "repository.json",
+      "archive_relative_path": "repository.json",
+      "source_revision": "a4131cd583e7ada7785831e0549a79fee835519d",
+      "git_blob_sha1": "080a55ca333e1b084277ddadd3499ad7affd6f44",
+      "sha256": "e87b3ccd27addb27842c1f593d1b558169d38142b9b55150f4abc16546ca2b51",
+      "bytes": 508,
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "license_path": "LICENSE.txt"
+    },
+    {
+      "original_relative_path": "LICENSE.txt",
+      "archive_relative_path": "LICENSE.txt",
+      "source_revision": "a4131cd583e7ada7785831e0549a79fee835519d",
+      "git_blob_sha1": "f7389913f3fd1cb41276bb098a352b0e27e7e879",
+      "sha256": "77c458ccb6116400cf960f8951630bc3b8b34731b56ffbd736b95c2b78449104",
+      "bytes": 1851,
+      "original_git_mode": "100644",
+      "archive_git_mode": "100644",
+      "license_path": "LICENSE.txt"
+    }
+  ]
+}
